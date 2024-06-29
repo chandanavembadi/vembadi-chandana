@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 
+{
+    printf("Hello, World!\n");
+    char inputString[100];
+    fgets(inputString, sizeof(inputString), stdin);
+    printf("%s", inputString);
+     return 0;
+}
