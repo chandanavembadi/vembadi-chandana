@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+     char str1[1000];
+      char str2[1000];
+       char str3[1000];
+
+      gets(str1); 
+      gets(str2);
+      gets(str3); 
+       printf("%s\n%s\n",str1,str2); 
+      printf("%s\n",str3); 
+return 0;
+ }
