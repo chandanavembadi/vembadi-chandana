@@ -6,5 +6,6 @@ int main()
     char inputString[100];
     fgets(inputString, sizeof(inputString), stdin);
     printf("%s", inputString);
+    printf("this is the first change");
      return 0;
 }
